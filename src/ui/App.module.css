@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-image: url("./App.jpg");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+header input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgb(246, 219, 176);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 5px solid rgb(199, 132, 9);
+}
+header input:focus {
+  background-color: rgb(246, 219, 176);
+}
+.mainDiv {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.location .city {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location .date {
+  color: black;
+  font-size: 16px;
+}
+.current {
+  background-color: transparent;
+}
+.current .temp {
+  color: black;
+  background-color: transparent;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 4px rgb(221, 165, 12);
+}
+.current .temp span {
+  font-weight: 500;
+  background-color: transparent;
+}
+.current .weather {
+  color: black;
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 2px 4px rgb(221, 165, 12);
+}
+.current .hiLow {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: transparent;
+  text-shadow: 2px 4px rgb(221, 165, 12);
+}
+.lable {
+  text-align: left;
+}
+.input {
+  margin-top: 10px;
+  color: black;
+}
