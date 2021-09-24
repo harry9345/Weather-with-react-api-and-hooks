@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather app 
+Simply enter any city or country name to get the latest weather forecast.\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Run  npm install , to install necessary packages and dependencies, then npm start to start the project
 
 ## Available Scripts
 
